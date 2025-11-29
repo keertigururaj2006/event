@@ -7,13 +7,7 @@ if len(sys.argv) != 5:
     event_name = sys.argv[1]
     venue = sys.argv[2]
     date = sys.argv[3]
-    organiser_name = sys.argv[4]
-    
-    print("Event Name: ",event_name)
-    print("Venue: ",venue)
-    print("Date: ",date)
-    print("Organiser Name: ",organiser_name)
-    
+    organiser_name = sys.argv[4]    
 else:
     print(" ")
     event_name = "Birthday"
