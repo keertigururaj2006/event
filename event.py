@@ -15,6 +15,7 @@ if len(sys.argv) != 5:
     print("Organiser Name: ", organiser_name)
     
 else:
+    print(" ")
     event_name = "Birthday"
     venue = "Hubli"
     date = "1/12/2025"
