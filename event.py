@@ -4,10 +4,10 @@ if len(sys.argv) != 5:
     print("Usage: python event.py <event_name> <venue> <date> <organiser_name>")
     sys.exit(1)
     
-    event_name = string(sys.argv[1])
-    venue = (sys.argv[2])
-    date = string(sys.argv[3])
-    organiser_name = string(sys.argv[4])
+    event_name = sys.argv[1]
+    venue = sys.argv[2]
+    date = sys.argv[3]
+    organiser_name = sys.argv[4]
     
     print("Event Name: ", event_name)
     print("Venue: ", venue)
