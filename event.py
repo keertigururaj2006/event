@@ -1,21 +1,15 @@
 import sys
 
-if len(sys.argv) == 5:
-
+if len(sys.argv) != 5:
     event_name = sys.argv[1]
     venue = sys.argv[2]
     date = sys.argv[3]
     organiser_name = sys.argv[4]
-
-print("Event Name:", event_name)
-print("Venue:", venue)
-print("Date:", date)
-print("Organiser Name:", organiser_name)
 else:
-        event_name = "Birthday"
-        venue = "Hubli"
-        date = "1/12/2025"
-        organiser_name = "Keerti"
+    event_name = "Birthday"
+    venue = "Hubli"
+    date = "1/12/2025"
+    organiser_name = "Keerti"
 
 print("Event Name:", event_name)
 print("Venue:", venue)
