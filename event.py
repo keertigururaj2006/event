@@ -1,11 +1,16 @@
 import sys
 
 if len(sys.argv) == 5:
-    # Read values from command line
+
     event_name = sys.argv[1]
     venue = sys.argv[2]
     date = sys.argv[3]
     organiser_name = sys.argv[4]
+
+print("Event Name:", event_name)
+print("Venue:", venue)
+print("Date:", date)
+print("Organiser Name:", organiser_name)
 else:
         event_name = "Birthday"
         venue = "Hubli"
