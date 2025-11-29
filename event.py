@@ -8,9 +8,9 @@ if len(sys.argv) == 5:
     organiser_name = sys.argv[4]
 else:
         event_name = "Birthday"
-    venue = "Hubli"
-    date = "1/12/2025"
-    organiser_name = "Keerti"
+        venue = "Hubli"
+        date = "1/12/2025"
+        organiser_name = "Keerti"
 
 print("Event Name:", event_name)
 print("Venue:", venue)
